@@ -17,7 +17,7 @@ module RuboCop
       #     # Neat little baz
       #     const :baz
       #   end
-      class ConstDocumentation < Cop
+      class DocumentationConst < Cop
         include DocumentationComment
         include DefNode
 
@@ -35,4 +35,4 @@ module RuboCop
       end
     end
   end
-
+end
