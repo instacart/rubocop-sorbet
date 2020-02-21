@@ -148,4 +148,5 @@ module RuboCop
       end
     end
   end
+end
 
